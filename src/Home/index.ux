@@ -410,10 +410,13 @@ export default {
      }
   },
   toSearch () {
+      router.push({
+        uri: '/About',
+        params: {}
+      })
     prompt.showToast({
         message:'暂无该功能'
     })
   }
 }
 </script>
-
